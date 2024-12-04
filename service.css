@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(63, 49, 214);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    position: fixed;
+
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+.navbar a:hover {
+    color: rgb(202, 187, 187);
+
+}
+
+.welcome {
+    padding: 100px 200px;
+
+
+
+
+}
+
+.par {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.imge {
+    width: 900px;
+    height: 700px;
+}
+
+main {
+    display: flex;
+}
+
+button:hover {
+    background-color: rgb(251, 229, 202);
+
+}
+
+
+footer {
+    
+    
+    
+}
+.pp{
+    display: grid;
+    gap: 1%;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+
+}
+
+.title {
+    margin-right: 60px;
+    margin-left: 100px;
+    font-style: italic;
+    background-color: rgb(235, 222, 206);
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 20px;
+}
+
+.srv1 {
+    background-color: white;
+    
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+    grid-column: 1/2;
+
+}
+
+.srv1:hover {
+    transform: scale(1.1);
+}
+
+.srv2 {
+    background-color: white;
+
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+    grid-column: 2/3;
+}
+
+.srv2:hover {
+    transform: scale(1.1);
+}
+
+.srv3 {
+    background-color: white;
+    
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+    grid-column:3/-1;
+    grid-row: 1/-1;
+}
+
+.srv3:hover {
+    transform: scale(1.1);
+}
+
+.srv4 {
+    background-color: white;
+    
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 20px;
+    margin: 10px;
+    transition: 0.7s ease;
+    border-radius: 20px;
+    grid-column: 1/3;
+    grid-row: 2/-1;
+}
+
+.srv4:hover {
+    transform: scale(1.1);
+}
